@@ -42,7 +42,7 @@ def finding_corrupted_links(link, max_depth):
     if number_of_corrupted_links == 0: print("\nEnd of program\nNo corrupted links were found") 
     else: print(f"\nEnd of program\n{number_of_corrupted_links} corrupted links were found")
     return list_of_links
-link = input("Enter your URL: ") 
+link = input("Enter your link: ") 
 print("Aware! Working time is growing exponentialy due to the depth")
 max_depth = int(input("Enter depth of searching: "))
 print("Started searching, wait until program ends...")
