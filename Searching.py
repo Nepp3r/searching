@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from collections import deque
 import urllib.parse as url
-
 def finding_corrupted_links(link, max_depth):
     queue_for_links = deque()
     visited = []
